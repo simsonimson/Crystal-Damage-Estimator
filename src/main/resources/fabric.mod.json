@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+    "id": "crystaldamageestimator",
+	"version": "${version}",
+    "name": "Crystal Damage Estimator",
+    "description": "Displays estimated End Crystal explosion damage above nearby entities.",
+    "authors": [
+        "YourName"
+    ],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+    "icon": "assets/crystal-damage/icon.png",
+    "environment": "client",
+	"entrypoints": {
+        "client": [
+            "com.meltingbutter.crystaldamageestimator.CrystalDamageEstimator"
+        ]
+	},
+    "mixins": [],
+	"depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "1.21.5",
+		"java": ">=21",
+        "fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
